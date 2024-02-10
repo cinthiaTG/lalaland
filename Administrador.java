@@ -1,10 +1,11 @@
+package src;
+
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 
 public class Administrador {
     public static void Crear_usuario() {
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
-        String nombre_arch ="usuarios.txt";
+        String nombre_arch = "Archivos/usuarios.txt";
 
         try {
             FileWriter fileWriter = new FileWriter(nombre_arch, true);
@@ -29,7 +30,7 @@ public class Administrador {
     }
     public static void Agregar_libro() {
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
-        String nombre_arch ="Libros.txt";
+        String nombre_arch = "Archivos/Libros.txt";
 
         try {
             FileWriter fileWriter = new FileWriter(nombre_arch, true);

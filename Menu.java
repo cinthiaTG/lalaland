@@ -1,3 +1,5 @@
+package src;
+
 public class Menu {
     public void menu(){
         System.out.println("agregar un usuario: ");
