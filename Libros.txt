@@ -1,2 +1,5 @@
-de 0 a poliglota	mr. salaz
-Habitos Atomicos	james
+titulo              autor
+narnia  nose
+nuevo   nose
+comida  nose
+otro    otro

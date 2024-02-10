@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b463956-4a47-4567-818f-a8db74306a97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libros.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios.txt" afterDir="false" />
+    <list default="true" id="8b463956-4a47-4567-818f-a8db74306a97" name="Changes" comment="cambios admin y bibliotr">
+      <change afterPath="$PROJECT_DIR$/Libro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bibliotecario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bibliotecario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Material.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Periodico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tesis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nota.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libros.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Libros.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usuarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1707495945784</updated>
     </task>
+    <task id="LOCAL-00001" summary="cambios admin y bibliotr">
+      <created>1707526829172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707526829172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,5 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="cambios admin y bibliotr" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios admin y bibliotr" />
   </component>
 </project>
