@@ -1,12 +1,9 @@
 package src;
-
 import src.Material;
-
 public class Tesis extends Material {
     private String Autor;
     private int CantidadTesis;
     private int TesisPrestadas;
-
     public Tesis(){
 
     }
