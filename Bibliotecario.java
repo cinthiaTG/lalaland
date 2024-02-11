@@ -1,16 +1,9 @@
-package src;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 
 public class Bibliotecario {
-    public void Buscar_libro(){
-        System.out.println("buscando......");
 
-    }
-    public void Buscar_revista(){
-        System.out.println("buscando......");
-
-    }
-    public void Buscar_periodico(){
-        System.out.println("buscando......");
-
-    }
-}
+        }

@@ -1,57 +1,26 @@
-package src;
-
 import java.io.*;
 
-public class Administrador {
-    public static void Crear_usuario() {
+public class Administrador extends Usuario{
+    public void Buscar_libro()throws IOException{
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
-        String nombre_arch = "Archivos/usuarios.txt";
-
-        try {
-            FileWriter fileWriter = new FileWriter(nombre_arch, true);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-
-            System.out.println("Ingresa el id:");
-            int id = Integer.parseInt(bufer.readLine());
-            System.out.println("Ingresa el nombre:");
-            String nombre = bufer.readLine();
-
-            String linea = id + "\t" + nombre + "\n";
-            bufferedWriter.write(linea);
-            bufferedWriter.close();
-
-        } catch (IOException e) {
-            System.err.println("Error al escribir en el archivo.");
-            e.printStackTrace();
-
-        } catch (NumberFormatException e) {
-            System.err.println("Debe ser un número entero.");
+        Libro libro = new Libro();
+        System.out.println("elige como se quiere buscar el libro\n1)titulo\n2)autor");
+        int opc=Integer.parseInt(bufer.readLine());
+        if (opc==1){
+            System.out.println("ingresa el titulo del libro");
+            String titulo= bufer.readLine();
+            libro.Buscar_libro_titulo(titulo);
+        }else {
+            System.out.println("ingresa el autor del libro");
+            String autor= bufer.readLine();
+            libro.Buscar_libros_autor(autor);
         }
     }
-    public static void Agregar_libro() {
+    public void elecc_eliminar_libro() throws  IOException {
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
-        String nombre_arch = "Archivos/Libros.txt";
-
-        try {
-            FileWriter fileWriter = new FileWriter(nombre_arch, true);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-
-            System.out.println("Ingresa el nombre:");
-            String nombre =bufer.readLine();
-            System.out.println("Ingresa el autor:");
-            String autor = bufer.readLine();
-
-            String linea = nombre + "\t" + autor + "\n";
-            bufferedWriter.write(linea);
-            bufferedWriter.close();
-
-        } catch (IOException e) {
-            System.err.println("Error al escribir en el archivo.");
-            e.printStackTrace();
-
-        } catch (NumberFormatException e) {
-            System.err.println("Debe ser un número entero.");
-        }
+        System.out.println("dime el titulo del libro: ");
+        String titulo= bufer.readLine();
+        Libro libro = new Libro();
+        libro.Eliminar_libro(titulo);
     }
-
 }
